@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+html {
+	/*Prevents padding to be added so that you dont get the horizontal scroll bar*/
+	box-sizing: border-box; 
+}
+
+body {
+	margin: 0;
+	font-family: 'Manrope', sans-serif;
+}
+
+h1 {
+	font-weight: 700;
+	text-align: center;
+	margin-top:  25px;
+	margin-bottom: 15px;
+	font-size: 40px;
+	letter-spacing: 5px;
+}
+
+/* Loader */
+
+.loader {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(255,255,255,0.8);
+}
+
+.loader img {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
